@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"],
+            "lucide-vue-next": ["node_modules/lucide-vue-next"]
+        }
+    },
+    "include": ["resources/js/**/*"],
+    "exclude": ["node_modules", "vendor"]
+}
