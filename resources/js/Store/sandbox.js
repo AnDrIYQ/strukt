@@ -19,7 +19,7 @@ export const userSandboxStore = defineStore('sandbox', {
                 this.me = await this.strukt.me();
             } catch ({ response }) {
                 if (response.status === 401) {
-                    this.me = false;
+                    this.me = null;
                 }
             } finally {
                 this.loading = false;
