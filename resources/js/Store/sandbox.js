@@ -6,7 +6,8 @@ export const userSandboxStore = defineStore('sandbox', {
         me: false,
         loading: true,
         strukt: new Strukt({
-            apiUrl: 'http://localhost:8000',
+            apiUrl: 'http://31.131.17.191',
+            wsHost: '31.131.17.191',
             wsKey: 'ldr1ppkztyk4egoxwej8',
             wsPort: 8080
         }),
